@@ -23,5 +23,8 @@
 	.wrapper {
 		width: 100%;
 		max-width: 80rem;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
 	}
 </style>
