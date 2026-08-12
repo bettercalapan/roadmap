@@ -1,6 +1,6 @@
-# BetterCalapan Roadmap
+# Roadmap
 
-This repository serves as the roadmap for BetterCalapan. Any actively developed projects and planned work will be indicated here.
+This serves as the roadmap for BetterCalapan. Any actively developed projects and planned work will be indicated here.
 
 ## Active
 

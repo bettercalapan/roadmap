@@ -1,0 +1,56 @@
+<script>
+    import Readme from "../../README.md"
+</script>
+
+<Readme />
+
+<style>
+    :global(table) {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+        border: 1px solid var(--neutral-hover);
+        border-radius: 1rem;
+
+        :global(thead) {
+            display: block;
+            min-width: 100%;
+
+            :global(tr) {
+                background: var(--neutral-light);
+
+                :global(th) {
+                    font-weight: 600;
+                }
+            }
+        }
+        :global(tbody) {
+            display: block;
+            min-width: 100%;
+
+            :global(tr:last-of-type) {
+                border-bottom: none;
+            }
+        }
+        :global(tr) {
+            padding: 1rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border-bottom: 1px solid var(--neutral-hover);
+
+            :global a {
+                color: var(--fg);
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+        :global(th, td) {
+            width: 100%;
+            min-width: 200px;
+            text-align: left;
+            align-self: center;
+        }
+    }
+</style>
